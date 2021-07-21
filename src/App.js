@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import AboutMe from "./components/AboutMe";
+import AboutMe from "./pages/AboutMe";
+import Portfolio from "./pages/Portfolio";
+import Input from "./components/Input";
 
 function App() {
   const [name, setName] = useState("Simba");
@@ -10,9 +12,9 @@ function App() {
   const guests = ["Simba", "Jessica", "Ernie"];
   return (
     <div className="App">
-      <AboutMe />
-      <p>{name}</p>
-      <input value={name} onChange={(e) => setName(e.target.value)}></input>
+      <AboutMe name={name} />
+      <Input name={name} setName={setName} />
+      {/* <p>{name}</p> */}
       {guests.map((guest) => (
         <h1>{guest}</h1>
       ))}
