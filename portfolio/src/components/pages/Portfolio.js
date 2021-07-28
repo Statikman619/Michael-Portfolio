@@ -32,3 +32,39 @@ function Portfolio() {
       ? setPortfolioIndex(projects.length - 1)
       : setPortfolioIndex(portfolioIndex - 1);
   }
+
+  return (
+    <div>
+      <header>
+        <nav className="navbar navbar-expand-md navbar-dark navbar-custom">
+          <h1 className="navbar-brand">Michael Martinez</h1>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul className="navbar-nav">
+            <li className="nav-item">
+                <Link to="/portfolio" className="nav-link active">
+                  Portfolio <i className="fa fa-book header-icon"></i>
+                </Link>
+                </li>
+              <li className="nav-item">
+                <Link to="/about" className="nav-link">
+                  About <i className="fa fa-user header-icon"></i>
+                </Link>
+              </li> 
+            </ul>
+          </div>
+        </nav>
+      </header>
