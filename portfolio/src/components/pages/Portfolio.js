@@ -68,3 +68,39 @@ function Portfolio() {
           </div>
         </nav>
       </header>
+
+      <main className="container">
+        <section className="row section-row">
+          <div className="col-md-2">
+            <h2>Portfolio</h2>
+          </div>
+          <div className="col-md-5">
+            <p>
+              I can't wait to share my works with you. Please see
+              below some the selections of my work. If you like
+              to talk about any of these further, feel free to reach out
+              using one of the multiple ways of getting in touch!
+            </p>
+            <p><a
+              className="resume-link"
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Click here to view my resume.
+            </a>
+            </p>
+            <p>
+            <a className="resume-link"
+              href="mailto: martinez.michael02@gmail.com">
+                E-mail me at martinez.michael02@gmail.com.
+            </a>
+            </p>
+          </div>
+          <div className="col-md-5">
+            <p>
+              I strive to produce the best possible product that I can. It may not
+              always be the best but just know that I gave it my all.
+            </p>
+          </div>
+        </section>
