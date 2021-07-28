@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import profilePic from "";
 import ProfileEmbed from "../ProfileEmbed";
-import resume from "";
+import resume from "../../assets/mikes-resume.pdf
+";
 
 function About() {
   return (
