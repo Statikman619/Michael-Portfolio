@@ -1,12 +1,23 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import projects from "../../projects";
+// import ProjectLinks from "../../ProjectLinks";
 import ProjectMain from "../ProjectMain";
 import DemoContent from "../DemoContent";
-import resume from "../../assets/resume";
+import resume from "../../assets/mikes-resume.pdf";
+import PortfolioImage from "../../assets/PortfolioImage.png";
 
 function Portfolio() {
   // This state determines which index of the Object in "projects" is displayed on the portfolio
+  const projects = [
+    {
+      name: "Michael Martinez",
+      links: "https://github.com/Statikman619/Michael-Portfolio",
+      skills: "React, HTML, JS, CSS",
+      thumbnail: PortfolioImage,
+      summary: "My new portfolio powered by React",
+      details: "My portfolio",
+    },
+  ];
   const [portfolioIndex, setPortfolioIndex] = useState(0);
 
   // This state determines the display property of the pop-up modal that shows the demo gif/video

@@ -2,10 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import profilePic from "";
 import ProfileEmbed from "../ProfileEmbed";
-import resume from "../../assets/mikes-resume.pdf
-";
+import resume from "../../assets/mikes-resume.pdf";
 
-function About() {
+function AboutMe() {
   return (
     <div>
       <header>
@@ -169,4 +168,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutMe;
