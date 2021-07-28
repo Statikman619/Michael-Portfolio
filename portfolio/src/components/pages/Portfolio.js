@@ -54,16 +54,16 @@ function Portfolio() {
             id="navbarNav"
           >
             <ul className="navbar-nav">
-            <li className="nav-item">
+              <li className="nav-item">
                 <Link to="/portfolio" className="nav-link active">
                   Portfolio <i className="fa fa-book header-icon"></i>
                 </Link>
-                </li>
+              </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link">
                   About <i className="fa fa-user header-icon"></i>
                 </Link>
-              </li> 
+              </li>
             </ul>
           </div>
         </nav>
@@ -76,31 +76,85 @@ function Portfolio() {
           </div>
           <div className="col-md-5">
             <p>
-              I can't wait to share my works with you. Please see
-              below some the selections of my work. If you like
-              to talk about any of these further, feel free to reach out
-              using one of the multiple ways of getting in touch!
-            </p>
-            <p><a
-              className="resume-link"
-              href={resume}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click here to view my resume.
-            </a>
+              I can't wait to share my works with you. Please see below some the
+              selections of my work. If you like to talk about any of these
+              further, feel free to reach out using one of the multiple ways of
+              getting in touch!
             </p>
             <p>
-            <a className="resume-link"
-              href="mailto: martinez.michael02@gmail.com">
+              <a
+                className="resume-link"
+                href={resume}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click here to view my resume.
+              </a>
+            </p>
+            <p>
+              <a
+                className="resume-link"
+                href="mailto: martinez.michael02@gmail.com"
+              >
                 E-mail me at martinez.michael02@gmail.com.
-            </a>
+              </a>
             </p>
           </div>
           <div className="col-md-5">
             <p>
-              I strive to produce the best possible product that I can. It may not
-              always be the best but just know that I gave it my all.
+              I strive to produce the best possible product that I can. It may
+              not always be the best but just know that I gave it my all.
             </p>
           </div>
         </section>
+
+        <section className="row">
+          <div className="col-md-4"></div>
+          <div className="col-md-4 section-row toggle-row">
+            <div className="row toggle-subrow">
+              <button
+                type="button"
+                className="btn btn-link toggle-btn"
+                onClick={() => manageToggleLeft()}
+              >
+                <i className="fa fa-chevron-left i-toggle"></i>
+              </button>
+              <h3 className="toggle-text">Toggle Projects</h3>
+              <button
+                type="button"
+                className="btn btn-link"
+                onClick={() => manageToggleRight()}
+              >
+                <i className="fa fa-chevron-right i-toggle"></i>
+              </button>
+            </div>
+            <div className="col-md-4"></div>
+          </div>
+        </section>
+
+        {/* Passing the props from the projects object into the main project component */}
+        <ProjectMain
+          project={projects[portfolioIndex]}
+          name={projects[portfolioIndex].name}
+          links={projects[portfolioIndex].projectLinks}
+          skills={projects[portfolioIndex].skillsUsed}
+          thumbnail={projects[portfolioIndex].demoThumbnail}
+          summary={projects[portfolioIndex].summary}
+          details={projects[portfolioIndex].details}
+          toggle={toggleModal}
+        />
+
+        {/* Passing the props from the projects object into the modal window that shows the demo */}
+        <DemoContent
+          project={projects[portfolioIndex]}
+          name={projects[portfolioIndex].name}
+          toggle={toggleModal}
+          display={modalDisplay}
+          content={projects[portfolioIndex].demoContent}
+        />
+      </main>
+    </div>
+  );
+}
+
+export default Portfolio;
