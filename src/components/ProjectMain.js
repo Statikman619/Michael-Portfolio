@@ -20,3 +20,32 @@ function ProjectMain(props) {
           <p>
             <strong>Skills Used |</strong> {props.skills}
           </p>
+
+          <p>
+            <strong>Demos (click to enlarge)</strong>
+          </p>
+          {/* Rendering each demo thumbnail.  This is something that was not necessary currently, but will be in the future so I set this as a map for reusability */}
+          {props.thumbnail.map((thumbnail) => {
+            return (
+              <DemoThumbnail
+                thumbnail={thumbnail}
+                name={props.name}
+                toggle={props.toggle}
+              />
+            );
+          })}
+        </div>
+        <div className="col-md-4">
+          <h3>Project Summary</h3>
+          <p>{props.summary}</p>
+        </div>
+        <div className="col-md-5">
+          <h3>Project Details</h3>
+          <p>{props.details}</p>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default ProjectMain;
