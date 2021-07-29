@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import "./App.css";
 // import AboutMe from "./components/pages/AboutMe";
@@ -6,15 +5,10 @@ import { HashRouter as Router, Route } from "react-router-dom";
 
 // import About from "./components/pages/AboutMe";
 import Portfolio from "./components/pages/Portfolio";
-=======
-import logo from './logo.svg';
-import './App.css';
->>>>>>> 29ff8c011dd670fdcddb5afb42e3541353c74f6c
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
       <div className="nc-photo"></div>
       <Router>
         <div>
@@ -104,22 +98,6 @@ function App() {
           </div>
         </nav>
       </footer>
-=======
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
->>>>>>> 29ff8c011dd670fdcddb5afb42e3541353c74f6c
     </div>
   );
 }
