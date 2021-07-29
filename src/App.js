@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 // import AboutMe from "./components/pages/AboutMe";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import About from "./components/pages/AboutMe";
 import Portfolio from "./components/pages/Portfolio";
@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="App">
       <div className="nc-photo"></div>
-      <Router>
+      {/* <Router>
         <div>
           {/* <Route exact path="/" component={About} /> */}
-          {/* <Route exact path="/about" component={About} /> */}
-          <Route exact path="/portfolio" component={Portfolio} />
-        </div>
-      </Router>
+      {/* <Route exact path="/about" component={About} /> */}
+      {/* <Route exact path="/portfolio" component={Portfolio} />
+        </div> */}
+      {/* </Router> */}
       <footer>
         <nav className="navbar navbar-expand-sm navbar-dark sticky-bottom navbar-custom navbar-index">
           <button
