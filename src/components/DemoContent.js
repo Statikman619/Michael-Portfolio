@@ -15,3 +15,26 @@ function DemoContent(props) {
   const img = (
     <img src={props.content} height="100%" width="100%" alt={props.name}></img>
   );
+
+  // Determining whether or not to display an iframe (youtube demo) or img (gif demo) tag for the demoed project
+  let thingToDisplay;
+
+  if (props.project.demoType === "iframe") {
+    thingToDisplay = iframe;
+  } else {
+    thingToDisplay = img;
+  }
+
+  return (
+    // inline style rule determining when the modal opens and closes
+    <div className="demo-window" style={{ display: props.display }}>
+      <button className="btn-link close">
+        {/* function to close the modal is passed as a prop below */}
+        <i className="fa fa-window-close" onClick={props.toggle}></i>
+      </button>
+      <div className="demo-content">{thingToDisplay}</div>
+    </div>
+  );
+}
+
+export default DemoContent;
