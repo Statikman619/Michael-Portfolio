@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import profilePic from "";
-import ProfileEmbed from "../ProfileEmbed";
+import profilePic from "../../assets/Profile.jpg";
 import resume from "../../assets/mikes-resume.pdf";
 
 function AboutMe() {
@@ -161,7 +160,6 @@ function AboutMe() {
             </div>
           </div>
           <div className="col-md-1"></div>
-          <ProfileEmbed />
         </section>
       </main>
     </div>
