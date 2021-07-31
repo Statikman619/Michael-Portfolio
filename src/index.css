@@ -109,3 +109,74 @@ h4 {
   background-color: #1b1b1b;
   opacity: 0.7;
 }
+
+.active {
+  /* Typographyl */
+  font-weight: bold;
+}
+
+.nav-item {
+  /* Typography */
+  font-size: 14px;
+  color: #faf9f8;
+}
+
+.btn,
+.btn a {
+  /* Box-Model */
+  padding-top: 5px;
+  padding-bottom: 7px;
+
+  /* Typography */
+  font-family: "Catamaran", sans-serif;
+  font-size: 14px;
+  vertical-align: middle;
+  color: #faf9f8;
+  opacity: 1;
+}
+
+.container {
+  /* Box-model */
+  padding-top: 12px;
+
+  /* Positioning */
+  width: 80%;
+}
+
+.row {
+  /* Box-model */
+  margin-top: 20px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+
+.section-row {
+  /* Box-Model */
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+  /* Aesthetic */
+  border: solid 1px #1b1b1b;
+  background-color: #faf9f8;
+  opacity: 0.8;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.col-box {
+  /* Box-Model */
+  border: solid 1px #1b1b1b;
+  padding-top: 5px;
+  padding-bottom: 0px;
+
+  /* Aesthetic */
+  background-color: #faf9f8;
+  opacity: 0.7;
+}
+
+.bottom-row {
+  /* Box-Model */
+  margin-bottom: 7%;
+}
