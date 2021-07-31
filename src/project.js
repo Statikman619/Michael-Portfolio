@@ -55,12 +55,12 @@ const projects = [
         {type : "Repository", url "https://github.com/Statikman619/Open-Weather-Map/tree/master"}
         {type : "Deployment", url "https://statikman619.github.io/Open-Weather-Map/"}
     ]
-    skillsUsed: "HTML, CSS, JS, "
+    skillsUsed: "HTML, CSS, JS, LocalStorage and Open Weather Map API"
     demoThumbnail: [openWeatherMapImg],
     demoContent: [openWeatherMapGif],
     demoType: "gif"
-    summary: ""
-    details ""
+    summary: "Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS."
+    details "An application called Open Weather Map that allows you to get current weather data from various cities"
 }
 {
     id: 2,
