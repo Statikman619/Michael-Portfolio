@@ -24,8 +24,8 @@ const projects = [
       id: 5,
       name: "movie-buffs",
       projectLinks: [
-          {type : "Repository", url "https://github.com/JG-77/Movie-Buffs-Group-Project"},
-          {type : "Deployment", url "https://jg-77.github.io/Movie-Buffs-Group-Project/"}
+          {type : "Repository", url: "https://github.com/JG-77/Movie-Buffs-Group-Project"},
+          {type : "Deployment", url: "https://jg-77.github.io/Movie-Buffs-Group-Project/"}
       ]
       skillsUsed: "TML, CSS, JS, JSON, OMDB API, WikipediaAPI",
       demoThumbnail: [movieBuffsImg],
@@ -38,8 +38,8 @@ const projects = [
     id: 4,
     name: "note-taker",
     projectLinks: [
-        {type : "Repository", url "https://github.com/Statikman619/Note-Taker"},
-        {type : "Deployment", url "https://serene-ridge-18121.herokuapp.com/"}
+        {type: "Repository", url: "https://github.com/Statikman619/Note-Taker"},
+        {type: "Deployment", url: "https://serene-ridge-18121.herokuapp.com/"}
     ]
     skillsUsed: "HTML, CSS, JS, Express.js, JSON and UUID",
     demoThumbnail: [noteTakerImg],
@@ -52,8 +52,8 @@ const projects = [
     id: 3,
     name: "open-weather-map",
     projectLinks: [
-        {type : "Repository", url "https://github.com/Statikman619/Open-Weather-Map/tree/master"},
-        {type : "Deployment", url "https://statikman619.github.io/Open-Weather-Map/"}
+        {type : "Repository", url: "https://github.com/Statikman619/Open-Weather-Map/tree/master"},
+        {type : "Deployment", url: "https://statikman619.github.io/Open-Weather-Map/"}
     ]
     skillsUsed: "HTML, CSS, JS, LocalStorage and Open Weather Map API",
     demoThumbnail: [openWeatherMapImg],
@@ -66,8 +66,8 @@ const projects = [
     id: 2,
     name: "password-generator"
     projectLinks: [
-        {type : "Repository", url "https://github.com/Statikman619/Password-Generator"}
-        {type : "Deployment", url "https://statikman619.github.io/Password-Generator/"}
+        {type : "Repository", url: "https://github.com/Statikman619/Password-Generator"},
+        {type : "Deployment", url: "https://statikman619.github.io/Password-Generator/"}
     ]
     skillsUsed: "HTML, CSS and JS",
     demoThumbnail: [passwordGeneratorImg],
@@ -80,8 +80,8 @@ const projects = [
     id: 1,
     name: "workout-tracker"
     projectLinks: [
-        {type : "Repository", url "https://github.com/Statikman619/Workout-Tracker"}
-        {type : "Deployment", url "https://mikes-workout-tracker.herokuapp.com/?id=60f798454d65b0001558decd"}
+        {type : "Repository", url: "https://github.com/Statikman619/Workout-Tracker"}
+        {type : "Deployment", url: "https://mikes-workout-tracker.herokuapp.com/?id=60f798454d65b0001558decd"}
     ]
     skillsUsed: "HTML, CSS, JS, Express, Mongo, Mongoose, Morgan and Nodemon",
     demoThumbnail: [workoutTrackerImg],
