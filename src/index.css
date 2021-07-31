@@ -43,3 +43,69 @@ footer {
   /* Typography */
   color: #faf9f8;
 }
+
+h4 {
+  /* Box-Model */
+  padding-left: 110px;
+  padding-top: 6px;
+
+  /* Typography */
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+  color: #faf9f8;
+}
+
+/* The following rules apply to classes that exist in two or more pages of this project */
+
+.sd-photo {
+  /* Positioning */
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+
+  /*Aesthetic */
+  background-image: url("./assets/NC-Wall.JPG");
+  opacity: 0.3;
+}
+
+.navbar {
+  /* Box-Model */
+  padding: 0px, 0px, 0px, 0px;
+}
+
+.navbar-brand {
+  /* Box-Model */
+  padding-top: 10px;
+  padding-left: 110px;
+
+  /* Typography */
+  font-family: "Baskervville", serif;
+  font-size: 50px;
+  color: #faf9f8;
+}
+
+.navbar-dark,
+.navbar-nav,
+.nav-link {
+  /* Typography */
+  color: #faf9f8 !important;
+}
+
+.nav-link {
+  width: 90px;
+}
+
+.navbar-nav {
+  /* Box-Model */
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+.navbar-custom {
+  /* Aesthetic */
+  background-color: #1b1b1b;
+  opacity: 0.7;
+}
