@@ -28,8 +28,8 @@ const projects = [
           {type : "Deployment", url "https://jg-77.github.io/Movie-Buffs-Group-Project/"}
       ]
       skillsUsed: ""
-      demoThumbnail: ""
-      demoContent: ""
+      demoThumbnail: [movieBuffsImg],
+      demoContent: [movieBuffsGif],
       demoType: "gif"
       summary: ""
       details ""
@@ -41,12 +41,12 @@ const projects = [
         {type : "Repository", url "https://github.com/Statikman619/Note-Taker"}
         {type : "Deployment", url "https://serene-ridge-18121.herokuapp.com/"}
     ]
-    skillsUsed: ""
-    demoThumbnail: ""
-    demoContent: ""
+    skillsUsed: "HTML, CSS, JS, Express.js, JSON and UUID"
+    demoThumbnail: [noteTakerImg],
+    demoContent: [noteTakerGif],
     demoType: "gif"
-    summary: ""
-    details ""
+    summary: "It's your job to build the back end, connect the two, and then deploy the entire application to Heroku."
+    details "An application called Note Taker that can be used to write and save notes."
 }
 {
     id: 3,
@@ -55,9 +55,9 @@ const projects = [
         {type : "Repository", url "https://github.com/Statikman619/Open-Weather-Map/tree/master"}
         {type : "Deployment", url "https://statikman619.github.io/Open-Weather-Map/"}
     ]
-    skillsUsed: ""
-    demoThumbnail: ""
-    demoContent: ""
+    skillsUsed: "HTML, CSS, JS, "
+    demoThumbnail: [openWeatherMapImg],
+    demoContent: [openWeatherMapGif],
     demoType: "gif"
     summary: ""
     details ""
@@ -69,9 +69,9 @@ const projects = [
         {type : "Repository", url "https://github.com/Statikman619/Password-Generator"}
         {type : "Deployment", url "https://statikman619.github.io/Password-Generator/"}
     ]
-    skillsUsed: ""
-    demoThumbnail: ""
-    demoContent: ""
+    skillsUsed: "HTML, CSS, JS, "
+    demoThumbnail: [passwordGeneratorImg],
+    demoContent: [passwordGeneratorGif],
     demoType: "gif"
     summary: ""
     details ""
@@ -83,9 +83,9 @@ const projects = [
         {type : "Repository", url "https://github.com/Statikman619/Workout-Tracker"}
         {type : "Deployment", url "https://mikes-workout-tracker.herokuapp.com/?id=60f798454d65b0001558decd"}
     ]
-    skillsUsed: ""
-    demoThumbnail: ""
-    demoContent: ""
+    skillsUsed: "HTML, CSS, JS, "
+    demoThumbnail: [workoutTrackerImg],
+    demoContent: [workoutTrackerGif],
     demoType: "gif"
     summary: ""
     details ""
