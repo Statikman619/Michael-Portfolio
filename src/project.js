@@ -20,5 +20,75 @@ const projects = [
     summary: "Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code."
     details: "An application that allows users to add important events to a daily planner. So that they can manage their time effectively."
   },
+  {
+      id: 5,
+      name: "movie-buffs"
+      projectLinks: [
+          {}
+          {}
+      ]
+      skillsUsed: ""
+      demoThumbnail: ""
+      demoContent: ""
+      demoType: ""
+      summary: ""
+      details ""
+  }
+  {
+    id: 4,
+    name: "note-taker"
+    projectLinks: [
+        {}
+        {}
+    ]
+    skillsUsed: ""
+    demoThumbnail: ""
+    demoContent: ""
+    demoType: ""
+    summary: ""
+    details ""
+}
+{
+    id: 3,
+    name: "open-weather-map"
+    projectLinks: [
+        {}
+        {}
+    ]
+    skillsUsed: ""
+    demoThumbnail: ""
+    demoContent: ""
+    demoType: ""
+    summary: ""
+    details ""
+}
+{
+    id: 2,
+    name: "password-generator"
+    projectLinks: [
+        {}
+        {}
+    ]
+    skillsUsed: ""
+    demoThumbnail: ""
+    demoContent: ""
+    demoType: ""
+    summary: ""
+    details ""
+}
+{
+    id: 1,
+    name: "workout-tracker"
+    projectLinks: [
+        {}
+        {}
+    ]
+    skillsUsed: ""
+    demoThumbnail: ""
+    demoContent: ""
+    demoType: ""
+    summary: ""
+    details ""
+}
 ];
 export default projects;
