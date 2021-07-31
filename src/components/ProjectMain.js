@@ -6,6 +6,9 @@ function ProjectMain(props) {
   console.log(props);
   return (
     <div>
+    {props.projects.map((project)=>{
+      return ()
+    })}
       <section className="row section-row bottom-row">
         <div className="col-md-3 col-folio">
           <h3>
