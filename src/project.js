@@ -27,12 +27,12 @@ const projects = [
           {type : "Repository", url "https://github.com/JG-77/Movie-Buffs-Group-Project"},
           {type : "Deployment", url "https://jg-77.github.io/Movie-Buffs-Group-Project/"}
       ]
-      skillsUsed: "",
+      skillsUsed: "TML, CSS, JS, JSON, OMDB API, WikipediaAPI",
       demoThumbnail: [movieBuffsImg],
       demoContent: [movieBuffsGif],
       demoType: "gif",
-      summary: "",
-      details: ""
+      summary: "This was my first project but luckily I had help from my team @JG-77 and @djony88.",
+      details: "An application that allows a user to do a quick search to help you learn about movies, tv series, and video games."
   }
   {
     id: 4,
@@ -69,7 +69,7 @@ const projects = [
         {type : "Repository", url "https://github.com/Statikman619/Password-Generator"}
         {type : "Deployment", url "https://statikman619.github.io/Password-Generator/"}
     ]
-    skillsUsed: "HTML, CSS, JS, ",
+    skillsUsed: "HTML, CSS and JS",
     demoThumbnail: [passwordGeneratorImg],
     demoContent: [passwordGeneratorGif],
     demoType: "gif"
