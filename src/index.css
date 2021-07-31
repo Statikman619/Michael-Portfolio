@@ -375,3 +375,60 @@ h4 {
   /* Aesthetic */
   background-color: #1b1b1b;
 }
+
+/* This is a catch-all rule specificaly to override multiple other hover rules on 
+  multiple pages in multiple built-in classes */
+
+  a:hover,
+  .btn-link:hover,
+  .resume-link:hover {
+    /* Typography */
+    color: #d37d61 !important;
+    font-weight: bolder !important;
+  }
+  
+  /* Media Query */
+  
+  @media only screen and (max-width: 768px) {
+    /* The below group of rules apply to elements and classes on multiple pages */
+  
+    h2 {
+      /* Typography */
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    h3 {
+      /* Typography */
+      font-size: 18px;
+    }
+  
+    .sd-photo {
+      /* This provides an alternate photo that's in portrait orientation, which will still
+      fill the background completely if used on mobile. */
+  
+      /* Aesthetics */
+      background-image: url("./assets/california.jpg");
+      background-size: 150%;
+    }
+  
+    .navbar-brand {
+      /* Box-Model */
+      padding-left: 22px;
+  
+      /* Typography */
+      font-size: 30px;
+    }
+  
+    .container {
+      /* Positioning */
+      width: 95%;
+    }
+  
+    .col-md-3 {
+      /* Box-Model */
+      margin-bottom: 10px;
+  
+      /* Positioning */
+      width: 100%;
+    }
