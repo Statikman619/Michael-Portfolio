@@ -1,13 +1,45 @@
+/* Styling rules for elements  */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Typography */
+  font-family: "Catamaran", sans-serif;
+  line-height: 150%;
+  color: #1b1b1b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  /* Box-Model */
+  margin-top: 0;
+  padding-bottom: 0px;
+
+  /* Typography */
+  font-size: 30px;
+  text-align: left;
+}
+
+p {
+  /* Typography */
+  font-size: 15.5px;
+  text-align: justify;
+  line-height: 21px;
+}
+
+h3 {
+  /* Box-Model */
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+
+  /* Typography */
+  font-size: 20px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+footer {
+  /* Box-Model */
+  max-height: 55px;
+
+  /* Typography */
+  color: #faf9f8;
 }
