@@ -5,6 +5,13 @@ import openWeatherMapImg from "./assets/demo-thumbnails/open-weather-map.png";
 import passwordGeneratorImg from "./assets/demo-thumbnails/password-generator.png";
 import workoutTrackerImg from "./assets/demo-thumbnails/workout-tracker.png";
 
+// import dayPlannerGif from "./assets/demo-gifs/dayPlanner.gif";
+// import movieBuffsGif from "./assets/demo-gifs/movieBuffs.gif";
+// import noteTakerGif from "./assets/demo-gifs/noteTaker.gif";
+// import openWeatherMapGif from "./assets/demo-gifs/openWeatherMap.gif";
+// import passwordGeneratorGif from "./assets/demo-gifs/passwordGenerator.gif";
+// import workoutTrackerGif from "./assets/demo-gifs/workoutTracker.gif"
+
 const projects = [
   {
     id: 6,
