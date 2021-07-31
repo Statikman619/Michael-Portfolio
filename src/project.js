@@ -32,7 +32,7 @@ const projects = [
       demoContent: [movieBuffsGif],
       demoType: "gif",
       summary: "",
-      details ""
+      details: ""
   }
   {
     id: 4,
@@ -46,7 +46,7 @@ const projects = [
     demoContent: [noteTakerGif],
     demoType: "gif",
     summary: "It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.",
-    details "An application called Note Taker that can be used to write and save notes."
+    details: "An application called Note Taker that can be used to write and save notes."
 }
 {
     id: 3,
@@ -60,7 +60,7 @@ const projects = [
     demoContent: [openWeatherMapGif],
     demoType: "gif",
     summary: "Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
-    details "An application called Open Weather Map that allows you to get current weather data from various cities"
+    details: "An application called Open Weather Map that allows you to get current weather data from various cities"
 }
 {
     id: 2,
@@ -74,7 +74,7 @@ const projects = [
     demoContent: [passwordGeneratorGif],
     demoType: "gif"
     summary: "For this project we had to modify starter code to make it have a clean, polished and responsive look.",
-    details "An application that enables employees to generate random passwords based on criteria that they’ve selected. "
+    details: "An application that enables employees to generate random passwords based on criteria that they’ve selected. "
 }
 {
     id: 1,
@@ -83,12 +83,12 @@ const projects = [
         {type : "Repository", url "https://github.com/Statikman619/Workout-Tracker"}
         {type : "Deployment", url "https://mikes-workout-tracker.herokuapp.com/?id=60f798454d65b0001558decd"}
     ]
-    skillsUsed: "HTML, CSS and JS",
+    skillsUsed: "HTML, CSS, JS, Express, Mongo, Mongoose, Morgan and Nodemon",
     demoThumbnail: [workoutTrackerImg],
     demoContent: [workoutTrackerGif],
     demoType: "gif"
-    summary: ""
-    details ""
+    summary: "For this project we had to modify starter code to handle schema and routes created in express.",
+    details: "An application that allows a user to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day."
 }
 ];
 export default projects;
