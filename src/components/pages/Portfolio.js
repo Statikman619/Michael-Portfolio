@@ -7,6 +7,7 @@ import resume from "../../assets/mikes-resume.pdf";
 import PortfolioImage from "../../assets/PortfolioImage.png";
 
 function Portfolio() {
+  console.log(PortfolioImage);
   // This state determines which index of the Object in "projects" is displayed on the portfolio
   const projects = [
     {
@@ -145,13 +146,14 @@ function Portfolio() {
 
         {/* Passing the props from the projects object into the main project component */}
         <ProjectMain
-          project={projects[portfolioIndex]}
-          name={projects[portfolioIndex].name}
-          links={projects[portfolioIndex].projectLinks}
-          skills={projects[portfolioIndex].skillsUsed}
-          thumbnail={projects[portfolioIndex].demoThumbnail}
-          summary={projects[portfolioIndex].summary}
-          details={projects[portfolioIndex].details}
+          projects={projects}
+          // projects={projects[portfolioIndex]}
+          // name={projects[portfolioIndex].name}
+          // links={projects[portfolioIndex].projectLinks}
+          // skills={projects[portfolioIndex].skillsUsed}
+          // thumbnail={projects[portfolioIndex].demoThumbnail}
+          // summary={projects[portfolioIndex].summary}
+          // details={projects[portfolioIndex].details}
           toggle={toggleModal}
         />
 
