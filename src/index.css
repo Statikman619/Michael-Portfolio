@@ -255,3 +255,95 @@ h4 {
 .contact-icon {
   font-size: 300px;
 }
+
+/* Styling rules exclusively for the "Portfolio" page are below */
+
+.col-md-3 a {
+  /* Typography */
+  color: #1b1b1b;
+  text-decoration: underline;
+}
+
+.resume-link {
+  /* Typography */
+  color: #1b1b1b;
+  text-decoration: underline;
+}
+
+.btn-link {
+  /* Typography */
+  color: #1b1b1b;
+  text-decoration: underline;
+}
+
+.col-folio p {
+  /* Typography */
+  text-align: left;
+}
+
+.demo-window {
+  /* Box-Model */
+  border: 2px solid #1b1b1b;
+
+  /* Positioning */
+  display: none;
+  position: fixed;
+  left: 20%;
+  top: 15%;
+  width: 772px;
+  height: 467px;
+  overflow: auto;
+
+  /* Aesthetic */
+  background-color: #faf9f8;
+}
+
+.demo-content {
+  /* Positioning */
+  width: 768px;
+  height: 432px;
+  position: absolute;
+  top: 31px;
+}
+
+.fa-window-close {
+  /* Positioning */
+  position: relative;
+  top: 3px;
+  right: 3px;
+
+  /* Aesthetic */
+  color: #d37d61;
+}
+
+.i-toggle {
+  /* Typography */
+  font-size: 30px;
+}
+
+.toggle-row {
+  /* Aesthetic */
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.toggle-subrow {
+  /* box-Model */
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.toggle-btn {
+  margin-left: 16%;
+}
+
+.toggle-text {
+  text-decoration: none !important;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+.demo-thumbnail {
+  height: 100%;
+  width: 100%;
+}
