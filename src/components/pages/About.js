@@ -78,10 +78,11 @@ function AboutMe() {
             </div>
             <div className="row">
               <p className="contact-text">
-                I would love to hear from you! I thrive on connection, and am
-                always on the lookout for opportunities to network and
+                I would love to hear from you. I'm always ready to make a new
+                connection, on the lookout for new opportunities to network and
                 collaborate. Feel free to reach out using any of the resources
-                below, as well as find out a bit more about me professionally.
+                found below, as well as find out a bit more about me
+                professionally.
               </p>
             </div>
             <div className="row contact-list ">

@@ -1,26 +1,26 @@
 import React from "react";
 
 function DemoContent(props) {
-  // Creating static properties for an iframe element or img element depending on the format of the demo content
-  const iframe = (
-    <iframe
+  // Creating static properties for an stills element or img element depending on the format of the demo content
+  const stills = (
+    <stills
       width="768"
       height="432"
       title={props.name}
       src={props.content}
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    ></iframe>
+    ></stills>
   );
   const img = (
     <img src={props.content} height="100%" width="100%" alt={props.name}></img>
   );
 
-  // Determining whether or not to display an iframe (youtube demo) or img (gif demo) tag for the demoed project
+  // Determining whether or not to display an screenshot or img tag for the demoed project
   let thingToDisplay;
 
-  if (props.project.demoType === "iframe") {
-    thingToDisplay = iframe;
+  if (props.project.demoType === "stills") {
+    thingToDisplay = stills;
   } else {
     thingToDisplay = img;
   }

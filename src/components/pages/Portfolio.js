@@ -13,7 +13,7 @@ function Portfolio() {
     {
       name: "Michael Martinez",
       links: "https://github.com/Statikman619/Michael-Portfolio",
-      skills: "React, HTML, JS, CSS",
+      skills: "React, HTML, JS and CSS",
       thumbnail: PortfolioImage,
       summary: "My new portfolio powered by React",
       details: "My portfolio",
