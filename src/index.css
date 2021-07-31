@@ -347,3 +347,31 @@ h4 {
   height: 100%;
   width: 100%;
 }
+
+/*need to create a contact me page css
+
+/* Footer styling rules are below for all pages */
+
+.nav {
+  /* Aesthetic */
+  background-color: #1b1b1b;
+}
+
+.sticky-bottom {
+  /* Box-Model */
+  padding: 0px, 0px, 0px, 0px;
+
+  /* Positioning */
+  height: 35px;
+}
+
+.footer-nav {
+  /* Box-Model */
+  margin-top: 17px;
+
+  /* Positioning */
+  height: 18px;
+
+  /* Aesthetic */
+  background-color: #1b1b1b;
+}
