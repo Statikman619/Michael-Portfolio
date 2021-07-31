@@ -5,20 +5,21 @@ import ProjectMain from "../ProjectMain";
 import DemoContent from "../DemoContent";
 import resume from "../../assets/mikes-resume.pdf";
 import PortfolioImage from "../../assets/PortfolioImage.png";
+import Projects from "../../project";
 
 function Portfolio() {
   console.log(PortfolioImage);
   // This state determines which index of the Object in "projects" is displayed on the portfolio
-  const projects = [
-    {
-      name: "Michael Martinez",
-      links: "https://github.com/Statikman619/Michael-Portfolio",
-      skills: "React, HTML, JS and CSS",
-      thumbnail: PortfolioImage,
-      summary: "My new portfolio powered by React",
-      details: "My portfolio",
-    },
-  ];
+  // const projects = [
+  //   {
+  //     name: "Michael Martinez",
+  //     links: "https://github.com/Statikman619/Michael-Portfolio",
+  //     skills: "React, HTML, JS and CSS",
+  //     thumbnail: PortfolioImage,
+  //     summary: "My new portfolio powered by React",
+  //     details: "My portfolio",
+  //   },
+  // ];
   const [portfolioIndex, setPortfolioIndex] = useState(0);
 
   // This state determines the display property of the pop-up modal that shows the demo gif/video
@@ -33,7 +34,7 @@ function Portfolio() {
 
   // Toggles to the next project in the portfolio
   function manageToggleRight() {
-    portfolioIndex === projects.length - 1
+    portfolioIndex === Projects.length - 1
       ? setPortfolioIndex(0)
       : setPortfolioIndex(portfolioIndex + 1);
   }
@@ -41,7 +42,7 @@ function Portfolio() {
   // Toggles to the previous project in the portfolio
   function manageToggleLeft() {
     portfolioIndex === 0
-      ? setPortfolioIndex(projects.length - 1)
+      ? setPortfolioIndex(Projects.length - 1)
       : setPortfolioIndex(portfolioIndex - 1);
   }
 
@@ -145,26 +146,16 @@ function Portfolio() {
         </section>
 
         {/* Passing the props from the projects object into the main project component */}
-        <ProjectMain
-          projects={projects}
-          // projects={projects[portfolioIndex]}
-          // name={projects[portfolioIndex].name}
-          // links={projects[portfolioIndex].projectLinks}
-          // skills={projects[portfolioIndex].skillsUsed}
-          // thumbnail={projects[portfolioIndex].demoThumbnail}
-          // summary={projects[portfolioIndex].summary}
-          // details={projects[portfolioIndex].details}
-          toggle={toggleModal}
-        />
+        <ProjectMain projects={Projects} toggle={toggleModal} />
 
         {/* Passing the props from the projects object into the modal window that shows the demo */}
-        <DemoContent
-          project={projects[portfolioIndex]}
-          name={projects[portfolioIndex].name}
+        {/* <DemoContent
+          project={Projects[portfolioIndex]}
+          name={Projects[portfolioIndex].name}
           toggle={toggleModal}
           display={modalDisplay}
-          content={projects[portfolioIndex].demoContent}
-        />
+          content={Projects[portfolioIndex].demoContent}
+        /> */}
       </main>
     </div>
   );

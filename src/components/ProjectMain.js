@@ -6,48 +6,46 @@ function ProjectMain(props) {
   console.log(props);
   return (
     <div>
-    {props.projects.map((project)=>{
-      return ()
-    })}
-      <section className="row section-row bottom-row">
-        <div className="col-md-3 col-folio">
-          <h3>
-            <strong>{props.name}</strong>
-          </h3>
-          <p>
-            <strong>Project Links</strong>
-            {/* Rendering each project link within the ProjectLinks component */}
-            {/* {props.links.map((link) => {
+      {props.projects.map((project) => {
+        console.log(project);
+        return (
+          <section className="row section-row bottom-row">
+            <div className="col-md-3 col-folio">
+              <h3>
+                <strong>{project.name}</strong>
+              </h3>
+              <p>
+                <strong>Project Links</strong>
+                {/* Rendering each project link within the ProjectLinks component */}
+                {/* {props.links.map((link) => {
               return <ProjectLinks link={link} />;
             })} */}
-          </p>
-          <p>
-            <strong>Skills Used |</strong> {props.skills}
-          </p>
+              </p>
+              <p>
+                <strong>Skills Used |</strong> {project.skills}
+              </p>
 
-          <p>
-            <strong>Demos (click to enlarge)</strong>
-          </p>
-          {/* Rendering each demo thumbnail.  This is something that was not necessary currently, but will be in the future so I set this as a map for reusability */}
-          {/* {props.thumbnail.map((thumbnail) => {
-            return (
+              <p>
+                <strong>Demos (click to enlarge)</strong>
+              </p>
+
               <DemoThumbnail
-                thumbnail={thumbnail}
-                name={props.name}
-                toggle={props.toggle}
+                thumbnail={project.thumbnail}
+                name={project.name}
+                // toggle={project.toggle}
               />
-            );
-          })} */}
-        </div>
-        <div className="col-md-4">
-          <h3>Project Summary</h3>
-          <p>{props.summary}</p>
-        </div>
-        <div className="col-md-5">
-          <h3>Project Details</h3>
-          <p>{props.details}</p>
-        </div>
-      </section>
+            </div>
+            <div className="col-md-4">
+              <h3>Project Summary</h3>
+              <p>{project.summary}</p>
+            </div>
+            <div className="col-md-5">
+              <h3>Project Details</h3>
+              <p>{project.details}</p>
+            </div>
+          </section>
+        );
+      })}
     </div>
   );
 }

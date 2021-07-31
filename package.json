@@ -1,7 +1,8 @@
 {
-  "name": "000-practice-app",
+  "name": "Michael-Portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Statikman619/Michael-Portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
