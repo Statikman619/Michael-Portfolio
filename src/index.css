@@ -379,56 +379,118 @@ h4 {
 /* This is a catch-all rule specificaly to override multiple other hover rules on 
   multiple pages in multiple built-in classes */
 
-  a:hover,
-  .btn-link:hover,
-  .resume-link:hover {
+a:hover,
+.btn-link:hover,
+.resume-link:hover {
+  /* Typography */
+  color: #d37d61 !important;
+  font-weight: bolder !important;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+  /* The below group of rules apply to elements and classes on multiple pages */
+
+  h2 {
     /* Typography */
-    color: #d37d61 !important;
-    font-weight: bolder !important;
+    font-size: 24px;
+    font-weight: bold;
   }
-  
-  /* Media Query */
-  
-  @media only screen and (max-width: 768px) {
-    /* The below group of rules apply to elements and classes on multiple pages */
-  
-    h2 {
-      /* Typography */
-      font-size: 24px;
-      font-weight: bold;
-    }
-  
-    h3 {
-      /* Typography */
-      font-size: 18px;
-    }
-  
-    .sd-photo {
-      /* This provides an alternate photo that's in portrait orientation, which will still
+
+  h3 {
+    /* Typography */
+    font-size: 18px;
+  }
+
+  .sd-photo {
+    /* This provides an alternate photo that's in portrait orientation, which will still
       fill the background completely if used on mobile. */
-  
-      /* Aesthetics */
-      background-image: url("./assets/california.jpg");
-      background-size: 150%;
-    }
-  
-    .navbar-brand {
-      /* Box-Model */
-      padding-left: 22px;
-  
-      /* Typography */
-      font-size: 30px;
-    }
-  
-    .container {
-      /* Positioning */
-      width: 95%;
-    }
-  
-    .col-md-3 {
-      /* Box-Model */
-      margin-bottom: 10px;
-  
-      /* Positioning */
-      width: 100%;
-    }
+
+    /* Aesthetics */
+    background-image: url("./assets/california.jpg");
+    background-size: 150%;
+  }
+
+  .navbar-brand {
+    /* Box-Model */
+    padding-left: 22px;
+
+    /* Typography */
+    font-size: 30px;
+  }
+
+  .container {
+    /* Positioning */
+    width: 95%;
+  }
+
+  .col-md-3 {
+    /* Box-Model */
+    margin-bottom: 10px;
+
+    /* Positioning */
+    width: 100%;
+  }
+
+  /* The below rule applies only to the "About Me" page */
+
+  .bio-image {
+    /* Box-Model */
+    width: 124px;
+    height: 124px;
+  }
+
+  /* The below rules apply only to the "Portfolio" page */
+
+  .demo-window {
+    left: 0%;
+    top: 25%;
+    width: 450px;
+    height: 259px;
+  }
+
+  .col-box {
+    /* Box-Model */
+    margin-bottom: 10px;
+
+    /* Positioning */
+    width: 100%;
+  }
+
+  .contact-list a,
+  .contact-list p {
+    /* Typography */
+    font-size: 15px;
+  }
+
+  /* The below rules apply to the footer, and are present on all pages */
+
+  .sticky-bottom {
+    /* Positioning */
+    height: 55px;
+  }
+
+  .navbar-index {
+    /* This undoes the fixed positioning for this class, which is only in "About Me" but is in the footer.
+    It makes the footer behave like a sticky footer normally would since the page now has a scroll feature
+    on mobile */
+
+    /* Positioning */
+    position: static;
+  }
+}
+
+/* Other Media Query | This is the breakpoint for the Navbar Toggler and is undoing the
+Box-Model and sizing rules I gave this class, to ensure the dark background covers the
+entire menu */
+
+@media only screen and (max-width: 575px) {
+  .footer-nav {
+    /* Box-Model */
+    margin-top: 0px;
+
+    /* Positioning */
+    height: inherit;
+  }
+}
