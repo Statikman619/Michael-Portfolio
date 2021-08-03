@@ -5,12 +5,12 @@ import openWeatherMapImg from "./assets/demo-thumbnails/open-weather-map.png";
 import passwordGeneratorImg from "./assets/demo-thumbnails/password-generator.png";
 import workoutTrackerImg from "./assets/demo-thumbnails/workout-tracker.png";
 
-// import dayPlannerGif from "./assets/demo-gifs/dayPlanner.gif";
-// import movieBuffsGif from "./assets/demo-gifs/movieBuffs.gif";
-// import noteTakerGif from "./assets/demo-gifs/noteTaker.gif";
-// import openWeatherMapGif from "./assets/demo-gifs/openWeatherMap.gif";
-// import passwordGeneratorGif from "./assets/demo-gifs/passwordGenerator.gif";
-// import workoutTrackerGif from "./assets/demo-gifs/workoutTracker.gif";
+import dayPlannerGif from "./assets/demo-gifs/dayPlanner.gif";
+import movieBuffsGif from "./assets/demo-gifs/movieBuffs.gif";
+import noteTakerGif from "./assets/demo-gifs/noteTaker.gif";
+import openWeatherMapGif from "./assets/demo-gifs/openWeatherMap.gif";
+import passwordGeneratorGif from "./assets/demo-gifs/passwordGenerator.gif";
+import workoutTrackerGif from "./assets/demo-gifs/workoutTracker.gif";
 
 const projects = [
   {
@@ -28,7 +28,7 @@ const projects = [
     ],
     skillsUsed: "HTML, CSS, JQuery and Moment.js",
     demoThumbnail: [dayPlannerImg],
-    // demoContent: [dayPlannerGif],
+    demoContent: [dayPlannerGif],
     demoType: "gif",
     summary:
       "Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code.",
@@ -50,7 +50,7 @@ const projects = [
     ],
     skillsUsed: "TML, CSS, JS, JSON, OMDB API, WikipediaAPI",
     demoThumbnail: [movieBuffsImg],
-    // demoContent: [movieBuffsGif],
+    demoContent: [movieBuffsGif],
     demoType: "gif",
     summary:
       "This was my first project but luckily I had help from my team @JG-77 and @djony88.",
@@ -66,7 +66,7 @@ const projects = [
     ],
     skillsUsed: "HTML, CSS, JS, Express.js, JSON and UUID",
     demoThumbnail: [noteTakerImg],
-    // demoContent: [noteTakerGif],
+    demoContent: [noteTakerGif],
     demoType: "gif",
     summary:
       "It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.",
@@ -88,7 +88,7 @@ const projects = [
     ],
     skillsUsed: "HTML, CSS, JS, LocalStorage and Open Weather Map API",
     demoThumbnail: [openWeatherMapImg],
-    // demoContent: [openWeatherMapGif],
+    demoContent: [openWeatherMapGif],
     demoType: "gif",
     summary:
       "Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
@@ -110,7 +110,7 @@ const projects = [
     ],
     skillsUsed: "HTML, CSS and JS",
     demoThumbnail: [passwordGeneratorImg],
-    // demoContent: [passwordGeneratorGif],
+    demoContent: [passwordGeneratorGif],
     demoType: "gif",
     summary:
       "For this project we had to modify starter code to make it have a clean, polished and responsive look.",
@@ -132,7 +132,7 @@ const projects = [
     ],
     skillsUsed: "HTML, CSS, JS, Express, Mongo, Mongoose, Morgan and Nodemon",
     demoThumbnail: [workoutTrackerImg],
-    // demoContent: [workoutTrackerGif],
+    demoContent: [workoutTrackerGif],
     demoType: "gif",
     summary:
       "For this project we had to modify starter code to handle schema and routes created in express.",
