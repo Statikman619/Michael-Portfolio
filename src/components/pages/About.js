@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import profilePic from "../../assets/Profile.jpg";
-import resume from "../../assets/mikes-resume.pdf";
+import resume from "../../assets/mike-resume.docx";
 
 function AboutMe() {
   return (

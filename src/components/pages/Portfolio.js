@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import ProjectLinks from "../../ProjectLinks";
 import ProjectMain from "../ProjectMain";
 import DemoContent from "../DemoContent";
-import resume from "../../assets/mikes-resume.pdf";
+import resume from "../../assets/mike-resume.docx";
 import PortfolioImage from "../../assets/PortfolioImage.png";
 import Projects from "../../project";
 

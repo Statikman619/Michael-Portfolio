@@ -389,7 +389,7 @@ h4 {
   background-color: #1b1b1b;
 }
 
-/* This is a catch-all rule specificaly to override multiple other hover rules on 
+/* This is a catch-all rule specifically to override multiple other hover rules on 
   multiple pages in multiple built-in classes */
 
 a:hover,
@@ -421,7 +421,7 @@ a:hover,
       fill the background completely if used on mobile. */
 
     /* Aesthetics */
-    background-image: url("./assets/california.jpg");
+    background-image: url("./assets/SD-skyline.jpg");
     background-size: 150%;
   }
 

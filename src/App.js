@@ -7,6 +7,7 @@ import Portfolio from "./components/pages/Portfolio";
 function App() {
   return (
     <div>
+      <div className="sd-photo"></div>
       <Router>
         <nav>
           <ul>
