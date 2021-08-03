@@ -27,7 +27,7 @@ const projects = [
       },
     ],
     skillsUsed: "HTML, CSS, JQuery and Moment.js",
-    // demoThumbnail: [dayPlannerImg],
+    demoThumbnail: [dayPlannerImg],
     // demoContent: [dayPlannerGif],
     demoType: "gif",
     summary:
@@ -49,7 +49,7 @@ const projects = [
       },
     ],
     skillsUsed: "TML, CSS, JS, JSON, OMDB API, WikipediaAPI",
-    // demoThumbnail: [movieBuffsImg],
+    demoThumbnail: [movieBuffsImg],
     // demoContent: [movieBuffsGif],
     demoType: "gif",
     summary:
@@ -65,7 +65,7 @@ const projects = [
       { type: "Deployment", url: "https://serene-ridge-18121.herokuapp.com/" },
     ],
     skillsUsed: "HTML, CSS, JS, Express.js, JSON and UUID",
-    // demoThumbnail: [noteTakerImg],
+    demoThumbnail: [noteTakerImg],
     // demoContent: [noteTakerGif],
     demoType: "gif",
     summary:
@@ -87,7 +87,7 @@ const projects = [
       },
     ],
     skillsUsed: "HTML, CSS, JS, LocalStorage and Open Weather Map API",
-    // demoThumbnail: [openWeatherMapImg],
+    demoThumbnail: [openWeatherMapImg],
     // demoContent: [openWeatherMapGif],
     demoType: "gif",
     summary:
@@ -109,7 +109,7 @@ const projects = [
       },
     ],
     skillsUsed: "HTML, CSS and JS",
-    // demoThumbnail: [passwordGeneratorImg],
+    demoThumbnail: [passwordGeneratorImg],
     // demoContent: [passwordGeneratorGif],
     demoType: "gif",
     summary:
@@ -131,7 +131,7 @@ const projects = [
       },
     ],
     skillsUsed: "HTML, CSS, JS, Express, Mongo, Mongoose, Morgan and Nodemon",
-    // demoThumbnail: [workoutTrackerImg],
+    demoThumbnail: [workoutTrackerImg],
     // demoContent: [workoutTrackerGif],
     demoType: "gif",
     summary:

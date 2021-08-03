@@ -122,6 +122,7 @@ function Portfolio() {
         </section>
 
         <section className="row">
+          {portfolioIndex}
           <div className="col-md-4"></div>
           <div className="col-md-4 section-row toggle-row">
             <div className="row toggle-subrow">
@@ -130,7 +131,7 @@ function Portfolio() {
                 className="btn btn-link toggle-btn"
                 onClick={() => manageToggleLeft()}
               >
-                <i className="fa fa-chevron-left i-toggle"></i>
+                L<i className="fa fa-chevron-left i-toggle"></i>
               </button>
               <h3 className="toggle-text">Toggle Projects</h3>
               <button
@@ -138,7 +139,7 @@ function Portfolio() {
                 className="btn btn-link"
                 onClick={() => manageToggleRight()}
               >
-                <i className="fa fa-chevron-right i-toggle"></i>
+                R<i className="fa fa-chevron-right i-toggle"></i>
               </button>
             </div>
             <div className="col-md-4"></div>
@@ -146,16 +147,16 @@ function Portfolio() {
         </section>
 
         {/* Passing the props from the projects object into the main project component */}
-        <ProjectMain projects={Projects} toggle={toggleModal} />
+        {/* <ProjectMain projects={Projects} toggle={toggleModal} /> */}
 
         {/* Passing the props from the projects object into the modal window that shows the demo */}
-        {/* <DemoContent
+        <DemoContent
           project={Projects[portfolioIndex]}
           name={Projects[portfolioIndex].name}
           toggle={toggleModal}
           display={modalDisplay}
           content={Projects[portfolioIndex].demoContent}
-        /> */}
+        />
       </main>
     </div>
   );

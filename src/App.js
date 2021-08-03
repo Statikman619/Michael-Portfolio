@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import "./App.css";
 import About from "./components/pages/About";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, Link, Redirect } from "react-router-dom";
 import Portfolio from "./components/pages/Portfolio";
 
 function App() {
   return (
     <div>
       <div className="sd-photo"></div>
-      <Router>
-        <nav>
+      {/* <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -21,13 +20,14 @@ function App() {
               <Link to="/portfolio">Portfolio</Link>
             </li>
           </ul>
-        </nav>
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-        </Switch>
-      </Router>
+        </nav> */}
+      <Switch>
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route path="/">
+          <Redirect to="/about" />
+        </Route>
+      </Switch>
       <footer>
         <button
           className="navbar-toggler"
@@ -56,6 +56,7 @@ function App() {
                 className="btn btn-sm"
                 role="button"
                 aria-pressed="true"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-user"></i>
               </a>
@@ -67,6 +68,7 @@ function App() {
                 className="btn btn-sm active"
                 role="button"
                 aria-pressed="true"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-book"></i>
               </a>
@@ -78,6 +80,7 @@ function App() {
                 className="btn btn-sm"
                 role="button"
                 aria-pressed="true"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-envelope-o e-mail-button"></i>
               </a>
@@ -89,6 +92,7 @@ function App() {
                 className="btn btn-sm"
                 role="button"
                 aria-pressed="true"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-linkedin-square"></i>
               </a>
@@ -100,6 +104,7 @@ function App() {
                 className="btn btn-sm"
                 role="button"
                 aria-pressed="true"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-github"></i>
               </a>
