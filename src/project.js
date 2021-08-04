@@ -15,7 +15,7 @@ import workoutTrackerGif from "./assets/demo-gifs/workoutTracker.gif";
 const projects = [
   {
     id: 6,
-    name: "day-planner",
+    name: "Day Planner",
     projectLinks: [
       {
         type: "Repository",
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     id: 5,
-    name: "movie-buffs",
+    name: "Movie Buffs",
     projectLinks: [
       {
         type: "Repository",
@@ -48,7 +48,7 @@ const projects = [
         url: "https://jg-77.github.io/Movie-Buffs-Group-Project/",
       },
     ],
-    skillsUsed: "TML, CSS, JS, JSON, OMDB API, WikipediaAPI",
+    skillsUsed: "HTML, CSS, JS, JSON, OMDB API, WikipediaAPI",
     demoThumbnail: [movieBuffsImg],
     demoContent: [movieBuffsGif],
     demoType: "gif",
@@ -59,7 +59,7 @@ const projects = [
   },
   {
     id: 4,
-    name: "note-taker",
+    name: "Note Taker",
     projectLinks: [
       { type: "Repository", url: "https://github.com/Statikman619/Note-Taker" },
       { type: "Deployment", url: "https://serene-ridge-18121.herokuapp.com/" },
@@ -75,7 +75,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "open-weather-map",
+    name: "Open Weather Map",
     projectLinks: [
       {
         type: "Repository",
@@ -97,7 +97,7 @@ const projects = [
   },
   {
     id: 2,
-    name: "password-generator",
+    name: "Password Generator",
     projectLinks: [
       {
         type: "Repository",
@@ -119,7 +119,7 @@ const projects = [
   },
   {
     id: 1,
-    name: "workout-tracker",
+    name: "Workout Tracker",
     projectLinks: [
       {
         type: "Repository",

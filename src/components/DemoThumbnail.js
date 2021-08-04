@@ -6,7 +6,7 @@ function DemoThumbnail(props) {
     <div>
       <img
         className="demo-thumbnail"
-        src={props.thumbnail}
+        src={props.demoThumbnail}
         alt={props.name}
         onClick={props.toggle}
       />

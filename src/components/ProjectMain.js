@@ -15,7 +15,8 @@ function ProjectMain(props) {
                 <strong>{project.name}</strong>
               </h3>
               <p>
-                <strong>Project Links</strong>
+                {/* <strong>Project Links</strong> */}
+                <ProjectLinks link={project.link} />
                 {/* Rendering each project link within the ProjectLinks component */}
                 {/* {props.links.map((link) => {
               return <ProjectLinks link={link} />;

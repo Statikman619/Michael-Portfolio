@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import About from "./components/pages/About";
 import { Switch, Route, Link, Redirect } from "react-router-dom";
 import Portfolio from "./components/pages/Portfolio";
@@ -8,19 +7,6 @@ function App() {
   return (
     <div>
       <div className="sd-photo"></div>
-      {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/portfolio">Portfolio</Link>
-            </li>
-          </ul>
-        </nav> */}
       <Switch>
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />

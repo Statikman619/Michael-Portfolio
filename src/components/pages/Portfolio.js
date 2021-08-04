@@ -125,21 +125,25 @@ function Portfolio() {
           {portfolioIndex}
           <div className="col-md-4"></div>
           <div className="col-md-4 section-row toggle-row">
-            <div className="row toggle-subrow">
+            <div className="toggle-subrow">
               <button
                 type="button"
+                style={{ display: "inline-block" }}
                 className="btn btn-link toggle-btn"
                 onClick={() => manageToggleLeft()}
               >
-                L<i className="fa fa-chevron-left i-toggle"></i>
+                <i className="fa fa-chevron-left i-toggle"></i>
               </button>
-              <h3 className="toggle-text">Toggle Projects</h3>
+              <h3 className="toggle-text" style={{ display: "inline-block" }}>
+                Toggle Projects
+              </h3>
               <button
                 type="button"
+                style={{ display: "inline-block" }}
                 className="btn btn-link"
                 onClick={() => manageToggleRight()}
               >
-                R<i className="fa fa-chevron-right i-toggle"></i>
+                <i className="fa fa-chevron-right i-toggle"></i>
               </button>
             </div>
             <div className="col-md-4"></div>

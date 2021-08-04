@@ -46,7 +46,7 @@ function AboutMe() {
             <img
               className="bio-image img-fluid"
               src={profilePic}
-              alt="A picture of me."
+              alt="A picture of myself."
               id="bio-image"
             />
           </div>
