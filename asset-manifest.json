@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6278365.chunk.css",
+    "main.js": "/static/js/main.3c504dcd.chunk.js",
+    "main.js.map": "/static/js/main.3c504dcd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2edd1fbc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2edd1fbc.js.map",
+    "static/js/2.aa894d2b.chunk.js": "/static/js/2.aa894d2b.chunk.js",
+    "static/js/2.aa894d2b.chunk.js.map": "/static/js/2.aa894d2b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f6278365.chunk.css.map": "/static/css/main.f6278365.chunk.css.map",
+    "static/js/2.aa894d2b.chunk.js.LICENSE.txt": "/static/js/2.aa894d2b.chunk.js.LICENSE.txt",
+    "static/media/Profile.ed07995f.jpg": "/static/media/Profile.ed07995f.jpg",
+    "static/media/index.css": "/static/media/SD-skyline.ae81614f.jpg",
+    "static/media/day-planner.f381723b.png": "/static/media/day-planner.f381723b.png",
+    "static/media/dayPlanner.4848e644.gif": "/static/media/dayPlanner.4848e644.gif",
+    "static/media/mike-resume.eef4ed60.docx": "/static/media/mike-resume.eef4ed60.docx",
+    "static/media/movie-buffs.78fee1f1.png": "/static/media/movie-buffs.78fee1f1.png",
+    "static/media/movieBuffs.c7b84697.gif": "/static/media/movieBuffs.c7b84697.gif",
+    "static/media/note-taker.b0e7442a.png": "/static/media/note-taker.b0e7442a.png",
+    "static/media/noteTaker.d4c41a85.gif": "/static/media/noteTaker.d4c41a85.gif",
+    "static/media/open-weather-map.f3aa6398.png": "/static/media/open-weather-map.f3aa6398.png",
+    "static/media/openWeatherMap.55903950.gif": "/static/media/openWeatherMap.55903950.gif",
+    "static/media/password-generator.fd71b18e.png": "/static/media/password-generator.fd71b18e.png",
+    "static/media/passwordGenerator.66eccc90.gif": "/static/media/passwordGenerator.66eccc90.gif",
+    "static/media/workout-tracker.2ebd4403.png": "/static/media/workout-tracker.2ebd4403.png",
+    "static/media/workoutTracker.ef2e4660.gif": "/static/media/workoutTracker.ef2e4660.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2edd1fbc.js",
+    "static/js/2.aa894d2b.chunk.js",
+    "static/css/main.f6278365.chunk.css",
+    "static/js/main.3c504dcd.chunk.js"
+  ]
+}
