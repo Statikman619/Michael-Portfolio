@@ -8,18 +8,6 @@ import PortfolioImage from "../../assets/PortfolioImage.png";
 import Projects from "../../project";
 
 function Portfolio() {
-  console.log(PortfolioImage);
-  // This state determines which index of the Object in "projects" is displayed on the portfolio
-  // const projects = [
-  //   {
-  //     name: "Michael Martinez",
-  //     links: "https://github.com/Statikman619/Michael-Portfolio",
-  //     skills: "React, HTML, JS and CSS",
-  //     thumbnail: PortfolioImage,
-  //     summary: "My new portfolio powered by React",
-  //     details: "My portfolio",
-  //   },
-  // ];
   const [portfolioIndex, setPortfolioIndex] = useState(0);
 
   // This state determines the display property of the pop-up modal that shows the demo gif/video
@@ -89,10 +77,11 @@ function Portfolio() {
           </div>
           <div className="col-md-5">
             <p>
-              I can't wait to share my works with you. Please see below some the
-              selections of my work. If you like to talk about any of these
-              further, feel free to reach out using one of the multiple ways of
-              getting in touch!
+              I can't wait to share my works with you. Please see below some of
+              the selections of my work. If you would like to talk about any of
+              these projects further, feel free to reach out. Email is the best
+              way to get a hold of me but there's multiple ways of getting in
+              touch with me!
             </p>
             <p>
               <a
@@ -149,9 +138,6 @@ function Portfolio() {
             <div className="col-md-4"></div>
           </div>
         </section>
-
-        {/* Passing the props from the projects object into the main project component */}
-        {/* <ProjectMain projects={Projects} toggle={toggleModal} /> */}
 
         {/* Passing the props from the projects object into the modal window that shows the demo */}
         <DemoContent

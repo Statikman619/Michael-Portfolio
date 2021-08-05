@@ -3,11 +3,9 @@ import DemoThumbnail from "./DemoThumbnail";
 import ProjectLinks from "./ProjectLinks";
 
 function ProjectMain(props) {
-  console.log(props);
   return (
     <div>
       {props.projects.map((project) => {
-        console.log(project);
         return (
           <section className="row section-row bottom-row">
             <div className="col-md-3 col-folio">
@@ -15,12 +13,8 @@ function ProjectMain(props) {
                 <strong>{project.name}</strong>
               </h3>
               <p>
-                {/* <strong>Project Links</strong> */}
                 <ProjectLinks link={project.link} />
                 {/* Rendering each project link within the ProjectLinks component */}
-                {/* {props.links.map((link) => {
-              return <ProjectLinks link={link} />;
-            })} */}
               </p>
               <p>
                 <strong>Skills Used |</strong> {project.skills}

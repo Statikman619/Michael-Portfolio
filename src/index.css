@@ -176,11 +176,6 @@ h4 {
   opacity: 0.7;
 }
 
-.bottom-row {
-  /* Box-Model */
-  margin-bottom: 7%;
-}
-
 .header-icon {
   margin-left: 2%;
 }
@@ -379,12 +374,6 @@ h4 {
 }
 
 .footer-nav {
-  /* Box-Model */
-  margin-top: 17px;
-
-  /* Positioning */
-  height: 18px;
-
   /* Aesthetic */
   background-color: #1b1b1b;
 }
