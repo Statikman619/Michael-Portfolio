@@ -15,7 +15,7 @@
 
 ## Description
 
-This is my uodated portfolio powered by react.
+This is my updated portfolio powered by react.
 
 ## Installation
 
