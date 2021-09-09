@@ -76,10 +76,13 @@ function Portfolio() {
           <div className="col-md-5">
             <p>
               I can't wait to share my works with you. Please see below some of
-              the selections of my work. If you would like to talk about any of
-              these projects further, feel free to reach out. Email is the best
-              way to get a hold of me but there's multiple ways of getting in
-              touch with me!
+              the selections of my work. Not all of my works were created by
+              myself some of these works were created as a team. That's one of
+              the great things about coding it could easily be a team effort. If
+              you would like to talk with me about any of these projects
+              further, feel free to reach out. Email is the best way to get a
+              hold of me(martinez.michael02@gmail.com) but there's multiple ways
+              of getting in touch with me just look below!
             </p>
             <p>
               <a
@@ -88,7 +91,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click here to view my resume.
+                Click here to download my resume.
               </a>
             </p>
             <p>
@@ -102,8 +105,13 @@ function Portfolio() {
           </div>
           <div className="col-md-5">
             <p>
-              I strive to produce the best possible product that I can. It may
-              not always be the best but just know that I gave it my all.
+              Ever since I was a kid i've loved computers and all the amazing
+              things that could be done with just a simple click of a button.
+              You can create something that people interact with, use, touch and
+              work with. That is one of the greatest feelings you can have when
+              you finish a project. With coding if you think it you can do it. I
+              always strive to produce the best possible product that I can. It
+              may not always be the best but everyday I strive to get better.
             </p>
           </div>
         </section>
