@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import profilePic from "../../assets/Profile.jpg";
-import resume from "../../assets/mike-resume.docx";
+import resume from "../../assets/Resume.pdf";
 
 function AboutMe() {
   return (
@@ -58,16 +58,18 @@ function AboutMe() {
               become a future web developer.
             </p>
             <p>
-              At the moment I know a bit of HTML, CSS, javascript, Node.js, OOP,
-              Express, Mysql, ORM and MVC. I'm currently learning Jquery and
-              Bootstrap. I know that I just started out but I plan on learning
-              as many skills as possible to fulfill my goal of being a web
-              developer.
+              At the moment I know a bit of HTML, CSS, javascript, React,
+              Node.js, OOP, Express, Mysql, ORM and MVC. I'm currently learning
+              Jquery and Bootstrap. I know that I'm just starting out my web
+              development career but I plan on learning as many skills as
+              possible to fulfill my goal of being a web developer so I can be
+              an asset to any organization.
             </p>
             <p>
               You can see the many works I've done in the Portfolio located on
-              this page, and am excited to connect with you through the
-              multitude of channels by which I can be contacted.
+              this page, and i'm very excited to connect with you through the
+              multitude of channels by which I can be contacted with as always
+              email is the best way to reach me (martinez.michael02@gmailc.com).
             </p>
           </div>
         </section>
@@ -126,7 +128,7 @@ function AboutMe() {
                 </div>
                 <div className="row d-flex justify-content-center contact-text-row">
                   <a
-                    href="https://www.linkedin.com/in/michael-martinez-0863591b8/"
+                    href="www.linkedin.com/in/michael-martinezstatikman619/"
                     target="_blank"
                     rel="noreferrer"
                   >

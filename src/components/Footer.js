@@ -24,7 +24,7 @@ function Footer() {
             </li>
             <li className="nav-item">
               <a
-                href="https://github.com/Statikman619/Portfolio"
+                href="https://github.com/Statikman619/Michael-Portfolio"
                 target="_blank"
                 className="btn btn-sm active"
                 role="button"
