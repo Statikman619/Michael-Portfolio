@@ -69,7 +69,7 @@ function AboutMe() {
               You can see the many works I've done in the Portfolio located on
               this page, and i'm very excited to connect with you through the
               multitude of channels by which I can be contacted with as always
-              email is the best way to reach me (martinez.michael02@gmailc.com).
+              email is the best way to reach me.
             </p>
           </div>
         </section>
@@ -107,7 +107,7 @@ function AboutMe() {
                   <i className="fa fa-envelope contact-icon"></i>
                 </div>
                 <div className="row d-flex justify-content-center contact-text-row">
-                  <a href="mailto:martinez.michael02@gmail.com">E-mail</a>
+                  <a href="mailto:martinez.michael02@gmail.com">martinez.michael02@gmailc.com</a>
                 </div>
               </div>
               <div className="col-md-4">
