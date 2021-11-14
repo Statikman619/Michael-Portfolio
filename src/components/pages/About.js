@@ -107,7 +107,9 @@ function AboutMe() {
                   <i className="fa fa-envelope contact-icon"></i>
                 </div>
                 <div className="row d-flex justify-content-center contact-text-row">
-                  <a href="mailto:martinez.michael02@gmail.com">martinez.michael02@gmailc.com</a>
+                  <a href="mailto:martinez.michael02@gmail.com">
+                    martinez.michael02@gmail.com
+                  </a>
                 </div>
               </div>
               <div className="col-md-4">
